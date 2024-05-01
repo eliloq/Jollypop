@@ -15,7 +15,7 @@ const App = () => {
                     <img src={logo} alt="Jollypop Logo" className="w-[80px] cursor-pointer"/>
                 </div>
                 <div className="h-full flex items-center justify-center grow-[3] md:gap-16 sm:gap-8 gap-5">
-                    <Link to="/home"
+                    <Link to="/"
                           className="links text-white text-[16.5px] transition-all hover:tracking-wider hover:scale-110">Home</Link>
                     <Link to="/about_us"
                           className="links text-white text-[16.5px] transition-all hover:tracking-wider hover:scale-110">About
