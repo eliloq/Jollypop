@@ -20,7 +20,7 @@ const AboutUs = () => {
                     consectetur adipisicing elit. Debitis, dignissimos fugit laborum magnam nisi omnis sequi ut velit.
                     Pariatur porro praesentium rerum saepe sint tempore ullam velit. A amet, mollitia.Lorem ipsum dolor
                     sit amet, consectetur adipisicing elit. Debitis, dignissimos fugit laborum magnam nisi omnis sequi
-                    ut velit. Pariatur porro praesentium rerum saepe sint tempore ullam velit. A amet, mollitia.
+                    ut velit.
                 </p>
             </div>
         </div>
