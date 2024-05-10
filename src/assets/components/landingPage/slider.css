@@ -12,8 +12,8 @@
         font-size: 16.5px;
         position: absolute;
         bottom: -65px;
-        left: 0;
-        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
 
@@ -56,8 +56,8 @@
         font-size: 16.5px;
         position: absolute;
         bottom: -65px;
-        left: 0;
-        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
 
@@ -100,8 +100,8 @@
         font-size: 15px;
         position: absolute;
         bottom: -65px;
-        left: 0;
-        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
 
@@ -126,16 +126,14 @@
         align-items: end;
         justify-content: space-evenly;
     }
-
-
 }
 
 @media screen and (min-width: 640px) and (max-width: 768px) {
     .swiper-pagination-bullet {
         width: 45px;
-        height:45px;
+        height: 45px;
         opacity: 1;
-        color: #838383;
+        color: rgba(0, 0, 0, 0.6);
         position: relative;
         transition: all 250ms linear;
     }
@@ -144,8 +142,8 @@
         font-size: 16.5px;
         position: absolute;
         bottom: -65px;
-        left: 0;
-        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
 
@@ -168,8 +166,7 @@
         display: flex;
         flex-flow: row nowrap;
         align-items: end;
-        justify-content: center;
-        gap: 50px;
+        justify-content: space-evenly;
     }
 
 }
@@ -179,49 +176,61 @@
         width: 30px;
         height: 30px;
         opacity: 1;
-        color: #838383;
+        color: rgba(0, 0, 0, 0.6);
         position: relative;
         transition: all 250ms linear;
     }
 
     .swiper-pagination-bullet:after {
-        font-size: 14px;
+        font-size: 13.5px;
         position: absolute;
-        left: 45px !important;
-        text-align: left;
+        bottom: -43px;
+        left: 50%;
+        transform: translateX(-50%);
+        line-height: 15px;
     }
 
 
     .swiper-pagination-bullet-active:before {
         content: "";
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(-12%, -12%);
+        transform: translate(-16%, -16%);
         border-radius: 50%;
     }
 
 
     .swiper-pagination {
-        width: 35%;
-        padding-left: 20px;
+        width: 100%;
+        position: absolute;
+        bottom: -20% !important;
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: row nowrap;
+        align-items: end;
+        justify-content: space-around;
     }
 
-    .swiper{
+    .swiper {
         width: 90%;
-        height:70vw;
+        height: 85vw;
     }
 
-    .swiper-slide{
-        width: 65%;
+    .swiper-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .swiper-slide {
+        width: 68%;
         height: 100% !important;
         display: flex;
         justify-content: center !important;
-        align-items: center !important;
+        align-items: start !important;
     }
 }
 
@@ -248,7 +257,6 @@
 
 .swiper-pagination-bullet:nth-of-type(2):after {
     content: "Strawberry flavor";
-    left: -15px;
 }
 
 .swiper-pagination-bullet:nth-of-type(3):after {
