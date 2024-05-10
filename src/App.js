@@ -5,7 +5,7 @@ import Home from "./assets/components/landingPage/Home.jsx";
 import {Link, Outlet} from "react-router-dom";
 import {FiSearch} from "react-icons/fi";
 import {LuShoppingBag} from "react-icons/lu";
-import logo from "./assets/images/Logo.png"
+import logo from "./assets/images/logo.png"
 
 const App = () => {
     return (
