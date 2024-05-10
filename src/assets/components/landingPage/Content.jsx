@@ -1,14 +1,13 @@
 import React from 'react';
-import img from "../../images/Group.png"
 import "./content.css"
 
 const Content = () => {
     return (
-        <div className="md:w-[30%] w-[70%] lg:h-[600px] md:h-[500px] flex flex-col md:justify-between justify-evenly gap-6 md:order-1 order-2 sm:pb-[50px] md:pb-0">
+        <div className="md:w-[30%] w-[70%] lg:h-[600px] md:h-[500px] flex flex-col md:justify-between justify-evenly gap-6 md:order-1 order-2 pb-[50px] pt-[15px] md:py-0">
             <div className="flex flex-col gap-5">
                 <h1 className="relative lg:text-[55px] sm:text-[45px] text-[35px]
             lg:leading-[55px]
-            sm:leading-[45px] leading-[36px] font-[Inter-Bold] after:bg-[url('./assets/images/Group.png')]
+            sm:leading-[45px] leading-[36px] font-[Inter-Bold] after:bg-[url('./assets/images/group.png')]
             after:!bg-cover
              after:bg-no-repeat
             after:lg:!w-[100px] after:lg:!h-[100px] after:absolute after:lg:left-[-75px] after:lg:top-[-65px]
