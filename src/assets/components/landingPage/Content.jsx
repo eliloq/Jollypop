@@ -32,7 +32,6 @@ const Content = () => {
                     Place an order
                 </a>
             </div>
-
             <div className="flex flex-wrap md:justify-evenly md:w-[120%] w-[100%] gap-3">
                 <div className="flex items-center ">
                     <span className="font-[Inter-Bold]
