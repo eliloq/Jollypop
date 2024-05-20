@@ -1,4 +1,5 @@
 @media screen and (min-width: 1280px) {
+
     .swiper-pagination-bullet {
         width: 50px;
         height: 50px;
@@ -38,6 +39,8 @@
         align-items: end;
         justify-content: space-evenly;
     }
+
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -188,6 +191,7 @@
         line-height: 15px;
     }
 
+
     .swiper-pagination-bullet-active:before {
         content: "";
         width: 45px;
@@ -220,6 +224,7 @@
         padding-top: 15px !important;
     }
 }
+
 
 .swiper-wrapper {
     width: 100%;
@@ -290,9 +295,11 @@
     position: relative;
     color: black;
     font-weight: 600;
+}
 
 
-    @keyframes move {
+
+@keyframes move {
     0%  {transform: translate(0px,0px);}
     20%  {transform: translate(10px,5px);}
     40%  {transform: translate(-10px,-5px);}
@@ -300,5 +307,4 @@
     80%  {transform: translate(10px,-5px);}
     100%  {transform: translate(0px,0px);}
 }
-
 
