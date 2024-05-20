@@ -19,15 +19,18 @@ export default () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
         >
-            <SwiperSlide>
+        <SwiperSlide className="animate-[move_20s_ease-in-out_infinite]">
                 <img src={img1} alt="Red Chilli Popcorn"/>
-            </SwiperSlide> <SwiperSlide>
-            <img src={img2} alt="Green Chilli Popcorn"/>
-        </SwiperSlide> <SwiperSlide>
-            <img src={img3} alt="Cheezy Mix Popcorn"/>
-        </SwiperSlide> <SwiperSlide>
-            <img src={img4} alt="Cheezy Mix Popcorn"/>
-        </SwiperSlide>
+            </SwiperSlide>
+            <SwiperSlide className="animate-[move_20s_ease-in-out_infinite]">
+                <img src={img2} alt="Green Chilli Popcorn"/>
+            </SwiperSlide>
+            <SwiperSlide className="animate-[move_20s_ease-in-out_infinite]">
+                <img src={img3} alt="Cheezy Mix Popcorn"/>
+            </SwiperSlide>
+            <SwiperSlide className="animate-[move_20s_ease-in-out_infinite]">
+                <img src={img4} alt="Cheezy Mix Popcorn"/>
+            </SwiperSlide>
         </Swiper>
     );
 };
